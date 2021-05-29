@@ -1,4 +1,4 @@
-# NOTAS FINALES
+# DESAFIO RICOMIDA
 
 Desafio Ricomida - Creacion dinamica de pagina web con Bootstrap, JS y Jquery 
 
