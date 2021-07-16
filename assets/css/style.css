@@ -1,5 +1,87 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: 0;
+    font-family: "Lobster", cursive;
+    font-family: "Cabin", sans-serif;
+    color: #373a3c;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+a.nav-link {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+}
+
+.hr-top {
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    background-color: #000000;
+}
+a.navbar-brand {
+    width: 137px;
+    height: 46px;
+    font-size: 37px;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+.mb-personalizado li{
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, p {
+    overflow: hidden;
+}
+.bg-oscuro {
+    background-color: #333a40;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-family: 'Pattaya', sans-serif;
+}
+.carousel-indicators li { 
+    width: 14px; height: 14px; border-radius: 100%;
+}
+.carousel-indicators li { 
+    background-color: rgb(29, 22, 22);
+}
+.carousel-indicators {
+    bottom: -40px;
+}
+@media screen and (max-width: 576px) {
+    .h1-responsive {
+        font-size: 2rem;
+    }
+    .text-responsive {
+        font-size: 0.80rem;
+    }
+    .btn-sm-width {
+        width: 100%
+    }
+  }
+@media screen and (min-width: 576px) {
+    .h1-responsive {
+        font-size: 2.5rem;
+    }
+    .text-responsive {
+        font-size: 1rem;
+    }
 }
